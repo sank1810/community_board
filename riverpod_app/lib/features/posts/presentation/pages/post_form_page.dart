@@ -1,0 +1,10 @@
+import 'package:flutter/material.dart';
+
+class PostFormPage extends StatelessWidget {
+  const PostFormPage({super.key, this.postId});
+  final String? postId;
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(body: Center(child: Text('Post form page')));
+  }
+}
